@@ -1,0 +1,193 @@
+/* Gernal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: #f4f7fb;
+    color: #222;
+
+}
+
+
+/* container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/* header */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    color: #666;
+}
+
+.auth-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.card {
+
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    text-align: center;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    animation: fadeIn 0.8s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    margin: 5px;
+
+    border: none;
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.login-button {
+    background: #0d6efd;
+    color: white;
+}
+
+
+/* Signup Button */
+
+.signup-button {
+    background: #198754;
+    color: white;
+}
+
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button:focus {
+    outline: 3px solid rgba(13, 110, 253, 0.25);
+    outline-offset: 3px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-text {
+    color: #777;
+}
+
+.login-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* sign up */
+
+.register-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* index background */
+.indexpage {
+    background-image: url("/images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* login background */
+.loginpage {
+    background-image: url("/images/5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* signup background */
+.signuppage {
+    background-image: url("/images/5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.log-block {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.singn-block {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
